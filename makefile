@@ -9,4 +9,5 @@ clean:
 	
 parallel:
 	mkdir bin
+	mkdir bin/results
 	g++ src_parallel/*.cpp -o bin/cOMet
