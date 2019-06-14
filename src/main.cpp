@@ -61,7 +61,7 @@ vector < vector < pair <int, int> > > kmer_store;
 
 vector < vector < string > > concensus_res;
 
-int buket_size=6;
+int buket_size=2;
 
 map < string, int > kmer_map;
 
@@ -75,7 +75,7 @@ int max_alignments=100;
 
 int k_size=4;
 
-int m_size=2;
+int m_size=3;
 
 int min_frags=15;
 
